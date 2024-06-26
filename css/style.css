@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+/* Nav Bar */
+
+section.nav-bar-section .nav-item a{
+    color: white;
+}
+
+section.nav-bar-section a.navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.navbar .container-fluid{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+div#navbarNav {
+    padding-left: 25em;
+}
+
+svg.svg-inline--fa.fa-shopping-cart.fa-w-18, svg.svg-inline--fa.fa-sign-in-alt.fa-w-16 {
+    font-size: 30px;
+}
+
+
+.badge-custo {
+    background: #cb0000;
+    padding: 8px 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+    left: -10px;
+}
+
+
+.cart-item-cont-custom{
+    height: 100vh;
+}
+
+/* Hero Section */
+.hero{
+    padding: 2em 0;
+}
+.carousel-item img{
+    height: 600px !important;
+    object-fit: cover;
+}
+
+.hero .row .col-md-9 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hero .category-list {
+    background: wheat;
+    list-style: none;
+    padding: 2em;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 60%;
+}
+
+.hero .category-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.hero .category-icon {
+    margin-right: 10px;
+    font-size: 1.5rem; /* Adjust the icon size */
+}
+
+
+/* Footer */
+
+.container-fluid.bg-black {
+    color: white;
+    letter-spacing: 1.5px;
+    padding: 2em 1em;
+}
+
+/* Staff Account CSS */
+.container-fluid.cart-item-cont-custom {
+    padding-top: 10em;
+    height: 100vh;
+}
+
+.nav-sfatt-custom-main{
+    padding: 2em 6em !important;
+    background: linear-gradient(to right, #001f3f, #0074cc); 
+    color: white; 
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    padding: 2em;
+    font-size: 20px;
+}
+
+.nav-pills .nav-link {
+    padding: 2em;
+    font-size: 20px;
+}
+
+.tab-content {
+    background: #ebebeb;
+    padding: 30px;
+    border-radius: 8px;
+}
